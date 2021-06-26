@@ -34,7 +34,7 @@ function preload(){
 
 
 function setup() {
-  createCanvas(displayWidth,displayHeight);
+  createCanvas(windowWidth,windowHeight);
   playBtn= createSprite(displayWidth/2,displayHeight-400);
   playBtn.addImage(playBtnImage);
   FruitGroup= new Group();
